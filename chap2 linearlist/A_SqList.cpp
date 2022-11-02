@@ -73,18 +73,18 @@ void move2(SqList* &L){
     }
 }
 
-int main(){
-    SqList* L = NULL;
-    int nums[5] = {7,8,9,6,3};
-    CreateList(L,nums,5);
-    cout << "L is:" <<endl;
-    DispList(L);
-
+//int main(){
+//    SqList* L = NULL;
+//    int nums[5] = {7,8,9,6,3};
+//    CreateList(L,nums,5);
+//    cout << "L is:" <<endl;
+//    DispList(L);
+//
 //    int x = 9;
 //    delnode2(L,x);
 //    partition2(L);
-    move2(L);
-    cout << "L is:" <<endl;
-    DispList(L);
-    return 0;
-}
+//    move2(L);
+//    cout << "L is:" <<endl;
+//    DispList(L);
+//    return 0;
+//}
